@@ -24,7 +24,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.shopinglist.components.ItemInput
+import com.example.shoppinglist.components.ItemInput
 import com.example.shoppinglist.components.SearchInput
 import com.example.shoppinglist.components.ShoppingList
 import com.example.shoppinglist.components.Title

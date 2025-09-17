@@ -1,4 +1,4 @@
-package com.example.shopinglist.components
+package com.example.shoppinglist.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -16,7 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.shopinglist.ui.theme.ShopingListTheme
+import com.example.shoppinglist.ui.theme.ShopingListTheme
 
 @Composable
 fun ItemInput(text: String, onTextChange: (String) -> Unit, onAddItem: () -> Unit) {
