@@ -28,13 +28,13 @@ import com.example.shoppinglist.components.ItemInput
 import com.example.shoppinglist.components.SearchInput
 import com.example.shoppinglist.components.ShoppingList
 import com.example.shoppinglist.components.Title
-import com.example.shoppinglist.ui.theme.ShopingListTheme
+import com.example.shoppinglist.ui.theme.ShoppingListTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ShopingListTheme {
+            ShoppingListTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -93,7 +93,7 @@ fun ShoppingListApp() {
 @Preview(showBackground = true)
 @Composable
 fun ShoppingListAppPreview() {
-    ShopingListTheme {
+    ShoppingListTheme {
         ShoppingListApp()
     }
 }
